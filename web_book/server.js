@@ -17,11 +17,11 @@ connection
     app.use('/admin', routerAdmin);
     app.use(routerAuth);
 
-    app.listen(3000, err => {
+    app.listen(3001, err => {
       if (err) {
         console.log(err);
       }
-      console.log("app listening on port 3000");
+      console.log("app listening on port 3001");
     });
   })
   .catch(err => {
